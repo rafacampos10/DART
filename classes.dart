@@ -18,11 +18,7 @@ void main() {
   pessoa2.idade = 30;
   pessoa2.altura = 1.65;
 
-  print(pessoa1.nome);
-  print(pessoa1.idade);
-  print(pessoa1.altura);
+  print("O meu nome é ${pessoa1.nome}, tenho ${pessoa1.idade} anos e tenho ${pessoa1.altura} m !");
+  print("O meu nome é ${pessoa2.nome}, tenho ${pessoa2.idade} anos e tenho ${pessoa2.altura} m !");
 
-  print(pessoa2.nome);
-  print(pessoa2.idade);
-  print(pessoa2.altura);
 }
